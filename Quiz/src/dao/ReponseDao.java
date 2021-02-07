@@ -16,6 +16,7 @@ import model.*;
 
 import itfce.GlobalInterface;
 
+
 public class ReponseDao  implements GlobalInterface<Reponse> {
 	
 	EntityManagerFactory emf = Persistence.createEntityManagerFactory("Quiz");

@@ -14,6 +14,7 @@ import dao.*;
 import itfce.GlobalInterface;
 
 
+
 public class QuestionDao implements GlobalInterface<Question> {
 	
 	EntityManagerFactory emf=Persistence.createEntityManagerFactory("Quiz");
